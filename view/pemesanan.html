@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Kuy Liburan</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/animate.css" />
+    <link rel="stylesheet" href="../css/themify-icons.css" />
+    <link rel="stylesheet" href="../css/flaticon.css" />
+    <link rel="stylesheet" href="../fontawesome/css/all.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+
+  <body>
+    <header class="main_menu">
+      <div class="main_menu_iner">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-12">
+              <nav
+                class="navbar navbar-expand-lg navbar-light justify-content-between"
+              >
+                <a class="navbar-brand" href="../index.html"> Kuy Liburan </a>
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-toggle="collapse"
+                  data-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div
+                  class="collapse navbar-collapse main-menu-item justify-content-center"
+                  id="navbarSupportedContent"
+                >
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="#"></a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="top_place section_padding" id="tempatbest">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xl-6">
+            <div class="section_tittle text-center">
+              <h2>Pemesanan Travel</h2>
+            </div>
+          </div>
+        </div>
+        <form action="#" method="post">
+          <div class="mt-10">
+            <input
+              type="text"
+              name="first_name"
+              id="namapemesan"
+              placeholder="Nama Lengkap"
+              required
+              class="single-input"
+            />
+          </div>
+          <div class="mt-10">
+            <input
+              type="email"
+              name="email"
+              id="emailpemesan"
+              placeholder="Email"
+              onfocus="this.placeholder = 'Email'"
+              onblur="this.placeholder = 'Email'"
+              required
+              class="single-input"
+            />
+          </div>
+
+          <div class="mt-10">
+            <input
+              placeholder="Keberangkatan"
+              class="single-input"
+              type="text"
+              id="datepemesan"
+              required
+              onfocus="(this.type='date')"
+              id="date"
+            />
+          </div>
+          <div class="mt-10">
+            <div class="form-select" id="default-select">
+              <select class="single-input" style="padding: 15px" id="tujuan">
+                <option value="Pantai Kuta">Pantai Kuta</option>
+                <option value="Labuan Bajo">Labuan Bajo</option>
+                <option value="Candi Borobudur">Candi Borobudur</option>
+                <option value="Taman Safari Indonesia">
+                  Taman Safari Indonesia
+                </option>
+                <option value="Tangkuban Perahu">Tangkuban Perahu</option>
+                <option value="Lembang Park & Zoo">Lembang Park & Zoo</option>
+              </select>
+            </div>
+          </div>
+          <button
+            onclick="pemesanan()"
+            type="submit"
+            class="btn_1 d-none d-lg-block"
+            style="text-align: center; width: 100%; border: 1px solid #fdcb9e"
+          >
+            Pesan Sekarang
+          </button>
+          <!-- <a
+            href="#"
+            type="submit"
+            onclick="pemesanan()"
+            class="btn_1 d-none d-lg-block"
+            style="text-align: center"
+            >Pesan Sekarang</a
+          > -->
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer-area">
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+          <div class="col-lg-12">
+            <div class="copyright_part_text text-center">
+              <p class="footer-text m-0">
+                &copy;Copyright By 20552011205_YuniTaniaMaulani_TIFK20_UASWEB1
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="../js/jquery-1.12.1.min.js"></script>
+    <script src="../js/pemesanan.js"></script>
+  </body>
+</html>
